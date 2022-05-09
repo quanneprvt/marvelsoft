@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 To start the project instance in electron app
 
-### `npm run react-start`
+### `Enter localhost:8081 in the browser`
 
 To start the project instance in browser
 
@@ -19,3 +19,5 @@ To start the project instance in browser
 Enter different port with different user name into the input and test
 
 ### `Note: we can have 2 instance in browser as well`
+
+By running `npm run react-start` and open 2 browser tabs
