@@ -12,8 +12,10 @@ To start the project instance in electron app
 
 ### `npm run react-start`
 
-To start the project in browser
+To start the project instance in browser
 
-### `After all has been start`
+### `After all instance has been start`
 
 Enter different port with different user name into the input and test
+
+### `Note: we can have 2 instance in browser as well`
