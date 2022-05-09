@@ -1,0 +1,32 @@
+@import "../styles/Chat.module.scss";
+
+.mainRaised {
+  margin: auto;
+  max-height: 100vh;
+  width: 100vw;
+  background: white;
+  position: relative;
+  z-index: 3;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.appBar {
+  background-color: #0aa2d8;
+  height: 5vh;
+}
+
+.chatContainer {
+  height: 95vh;
+}
+
+.appBarTabs {
+  button {
+    color: white !important;
+    &:first-child {
+      max-width: 33vw;
+    }
+  }
+}

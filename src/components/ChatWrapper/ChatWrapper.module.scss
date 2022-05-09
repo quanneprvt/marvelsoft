@@ -1,0 +1,29 @@
+.hide {
+  display: none;
+}
+
+.content {
+  &:hover,
+  &:focus {
+    color: #0aa2d8;
+    background: whitesmoke;
+  }
+}
+
+.contentShift {
+  margin-right: 200px;
+}
+
+.gridItem {
+  max-height: 100%;
+  overflow: auto;
+  background-color: mintcream;
+}
+
+.gridSenderColumn {
+  border-right: 2px solid gainsboro;
+}
+
+.chatSessionContainer {
+  position: relative;
+}

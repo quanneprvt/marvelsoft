@@ -1,0 +1,26 @@
+@import "../../styles/Chat.module.scss";
+.messageListContainer {
+  height: calc(100% - 6vh);
+  margin-bottom: 10vh;
+}
+
+.sendMessageContainer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 65%;
+  background-color: white;
+  padding: 10px 10px;
+  height: 6vh;
+}
+
+.sendButton {
+  height: auto;
+  border: none;
+  border-radius: 0 !important;
+}
+
+.messageDate {
+  font-weight: 200;
+}
